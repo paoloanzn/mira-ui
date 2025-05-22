@@ -20,6 +20,7 @@ const cli = meow(
 	},
 );
 
+console.clear();
 const {clear} = render(<App />, {patchConsole: true});
 if (process.env.NODE_ENV != 'development') {
 	clear();
